@@ -8,8 +8,9 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
-  const navigate = useNavigate(); // Initialize the useNavigate hook
-
+  
+  // Initialize the useNavigate hook
+  const navigate = useNavigate(); 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
